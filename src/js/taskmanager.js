@@ -48,6 +48,7 @@ export default class TaskManager {
     });
     this.remove.addEventListener('click', () => {
       this.tasks = [];
+      this.save();
       this.generateList(this.tasks);
     });
   }
