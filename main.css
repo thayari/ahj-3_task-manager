@@ -1,0 +1,91 @@
+body {
+  font-family: Roboto, Verdana, sans-serif;
+  box-sizing: border-box;
+  background-color: #3C4B52;
+  color: #E5E5E5;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  background-color: #1F282C;
+  margin-bottom: 21px;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 9px;
+}
+
+.wrapper {
+  display: flex;
+  min-width: 300px;
+  max-width: 640px;
+  padding-left: 10px;
+  padding-right: 10px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.input {
+  background-color: #9FB4BE;
+  border-radius: 10px;
+  height: 30px;
+  margin-bottom: 51px;
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.pinned-container {
+  margin-bottom: 21px;
+}
+
+.task {
+  margin: 0;
+  border: 1px solid #174154;
+  border-radius: 10px;
+  position: relative;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 14px;
+  padding-right: 50px;
+}
+
+.task p {
+  margin: 0;
+  padding: 0;
+}
+
+.task-pinned {
+  background-color: #55707D;
+}
+
+.task-unpinned {
+  background-color: #465A64;
+}
+
+.pin-button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #174154;
+  border-radius: 50%;
+}
+
+.pin-active {
+  background-color: #66A6C5;
+}
+
+.remove {
+  margin-top: 34px;
+  align-self: center;
+  fill: #55707D;
+}
+
+/*# sourceMappingURL=main.css.map*/
